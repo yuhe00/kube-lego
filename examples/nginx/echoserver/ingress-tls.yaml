@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - echo.example.com
+    - test.inconspicuous.no
     secretName: echoserver-tls
   rules:
-  - host: echo.example.com
+  - host: test.inconspicuous.no
     http:
       paths:
       - path: /

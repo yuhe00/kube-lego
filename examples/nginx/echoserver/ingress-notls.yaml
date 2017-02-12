@@ -12,7 +12,7 @@ spec:
   #   - echo.example.com
   #   secretName: echoserver-tls
   rules:
-  - host: echo.example.com
+  - host: test.inconspicuous.no
     http:
       paths:
       - path: /
